@@ -1,0 +1,37 @@
+# ⛔ Archivos de configuración sensibles
+credentials.json
+*.csv
+.env
+
+# 🧪 Archivos y carpetas de Pytest
+.pytest_cache/
+.cache/
+*.log
+*.coverage
+coverage.xml
+htmlcov/
+
+# 💻 Entorno virtual
+venv/
+.env/
+*.pyc
+__pycache__/
+
+# 📂 Archivos generados por IDEs y editores
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 🧰 WebDriver descargado por webdriver_manager
+~/.wdm/
+
+# 🔍 Informes de pruebas (si usas plugins como allure, pytest-html, etc.)
+reports/
+allure-results/
+allure-report/
+
+# 🚫 Archivos temporales o de pruebas
+*.tmp
+*.bak
+*.old
