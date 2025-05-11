@@ -1,0 +1,1 @@
+Project to learn and practices automation scripts with Selenium and Python
