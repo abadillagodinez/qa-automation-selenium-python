@@ -19,4 +19,5 @@ class DigestPage:
 
     def get_heading3_text(self):
         return self.driver.find_element(By.TAG_NAME, "h3").text
+
     

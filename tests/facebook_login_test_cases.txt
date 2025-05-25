@@ -1,0 +1,83 @@
+====================================================================
+Test Case ID: TC_FB_LOGIN_001
+Título: Verificar login exitoso con credenciales válidas
+Descripción: Asegura que el usuario puede iniciar sesión correctamente con email y contraseña válidos.
+
+Precondiciones:
+- El usuario tiene una cuenta de Facebook válida y activa.
+- Navegador abierto en https://www.facebook.com
+
+Pasos para ejecutar:
+1. Ingresar email registrado en el campo "Correo electrónico o teléfono".
+2. Ingresar la contraseña correcta en el campo "Contraseña".
+3. Hacer clic en el botón "Iniciar sesión".
+
+Datos de prueba:
+- Email: usuario@ejemplo.com
+- Contraseña: Contraseña123!
+
+Resultado esperado:
+- El usuario es redirigido a la página de inicio de su perfil de Facebook.
+
+Resultado real:
+- (Completar durante la ejecución)
+
+Estado: (Pasado / Fallido)
+Severidad: Alta
+Prioridad: Alta
+====================================================================
+
+====================================================================
+Test Case ID: TC_FB_LOGIN_002
+Título: Intento de login con email no registrado
+Descripción: Verifica que el sistema responde correctamente cuando se intenta iniciar sesión con un email no registrado.
+
+Precondiciones:
+- Navegador abierto en https://www.facebook.com
+
+Pasos para ejecutar:
+1. Ingresar un email no registrado en el campo "Correo electrónico o teléfono".
+2. Ingresar cualquier contraseña.
+3. Hacer clic en el botón "Iniciar sesión".
+
+Datos de prueba:
+- Email: no_registrado@ejemplo.com
+- Contraseña: Cualquier123!
+
+Resultado esperado:
+- Se muestra el mensaje: "No encontramos una cuenta con ese correo electrónico."
+
+Resultado real:
+- (Completar durante la ejecución)
+
+Estado: (Pasado / Fallido)
+Severidad: Media
+Prioridad: Media
+====================================================================
+
+====================================================================
+Test Case ID: TC_FB_LOGIN_003
+Título: Intento de login con campos vacíos
+Descripción: Validar que no se puede enviar el formulario de login si los campos requeridos están vacíos.
+
+Precondiciones:
+- Navegador abierto en https://www.facebook.com
+
+Pasos para ejecutar:
+1. Dejar vacíos los campos de "Correo electrónico o teléfono" y "Contraseña".
+2. Hacer clic en el botón "Iniciar sesión".
+
+Datos de prueba:
+- Email: (vacío)
+- Contraseña: (vacío)
+
+Resultado esperado:
+- El sistema no permite el login y muestra validaciones de campo requeridas.
+
+Resultado real:
+- (Completar durante la ejecución)
+
+Estado: (Pasado / Fallido)
+Severidad: Alta
+Prioridad: Alta
+====================================================================

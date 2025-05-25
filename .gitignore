@@ -1,5 +1,6 @@
 # ⛔ Archivos de configuración sensibles
 credentials.json
+data/
 *.csv
 .env
 
