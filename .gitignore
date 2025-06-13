@@ -1,7 +1,6 @@
 # ⛔ Archivos de configuración sensibles
 credentials.json
-data/test_cases/
-tests/test_cases_description/
+data/
 *.csv
 .env
 
